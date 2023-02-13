@@ -1,0 +1,1 @@
+select * from items where items.price > 80
