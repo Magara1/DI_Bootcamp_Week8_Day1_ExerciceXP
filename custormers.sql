@@ -1,5 +1,5 @@
-CREATE TABLE items(
- items_id SERIAL PRIMARY KEY,
- name VARCHAR (100) NOT NULL,
- price REAL NOT NULL
+CREATE TABLE custormers(
+ custormers_id SERIAL PRIMARY KEY,
+ lastname VARCHAR (100) NOT NULL,
+ firstname VARCHAR (100) NOT NULL
 )
